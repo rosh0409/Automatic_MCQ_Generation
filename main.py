@@ -1,5 +1,7 @@
-# import nltk
-# nltk.download("all")
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 from flask import Flask , render_template,request
 from Abhyas.extractive_text_summarization import summarize
 from Abhyas.keyword_extraction import get_keywords
