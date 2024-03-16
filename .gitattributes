@@ -1,0 +1,4 @@
+s2v_old/freqs.json filter=lfs diff=lfs merge=lfs -text
+s2v_old/strings.json filter=lfs diff=lfs merge=lfs -text
+s2v_old/key2row filter=lfs diff=lfs merge=lfs -text
+s2v_old/vectors filter=lfs diff=lfs merge=lfs -text
