@@ -1,4 +1,7 @@
 from flask import Flask , render_template,request
+
+import nltk
+nltk.download("all")
 from Abhyas.extractive_text_summarization import summarize
 from Abhyas.keyword_extraction import get_keywords
 # from Abhyas.sentence_mapping import tokenize_sentences , get_sentences_for_keyword
